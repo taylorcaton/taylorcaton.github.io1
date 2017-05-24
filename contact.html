@@ -16,9 +16,9 @@
 		
 		<div class="nav">
 			<ul>
-				<li><a class = "active" href="#">About Me</a></li>
+				<li><a href="index.html">About Me</a></li>
 				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
+				<li><a class="active" href="#">Contact</a></li>
 			</ul>
 		</div>
 
@@ -30,19 +30,25 @@
 
 	<section id="AboutMe">
 
-		<h1>About Me</h1>
+		<h1>Contact</h1>
 		<hr>
 
-		<img id="bio-image" src="assets/images/Taylor.png" alt="Taylor Caton" width ="200px">
+		<form>
+			Name<br>
+  			<input type="text" name="name"><br>
+  			<br>
+  			
+  			Email<br>
+  			<input type="text" name="email" col="50"><br>
+			<br>
+  			
+  			Message<br>
+			<textarea name="message" rows="12" cols="50">Mr. Caton, I would like to offer you a job at (insert company name here)
+			</textarea>
+			<br>
+			<input type="submit" value="Submit">
 
-		<p>
-			Hello! My name is <a href="http://www.taylorcaton.com" target="_blank">Taylor Caton</a> and I am studying to be a Full-Stack Web Developer. For the past 18 years I have studied and played many styles of music professionally. I plan to take my work-ethic and passion for the arts, combine it with my love of all things tech, and start a new-career creating for the web!
-		</p>
-		<br>
-		<p>
-			I have been married to my lovely wife, Brandy, for 9 years! We have two children, Elli (6) and Piper (3). Currently I teach Band and Computer Science at Hickory Grove Christian School. 	
-		</p>
-
+		</form>
 	</section>
 
 	<section id="SocialBox">
@@ -55,6 +61,7 @@
 			<li><a href="https://stackoverflow.com/users/7910199/taylor-caton?tab=profile" target="_blank"><img src="assets/images/stackoverflow.png" alt="stackoverflow"></a></li>
 		</ul>
 	</section>
+
 </div>
 
 <div class="footer">
@@ -62,7 +69,6 @@
 		© Copyright 2017 Taylor Caton
 	</p>
 </div>
-
 
 </body>
 </html>
